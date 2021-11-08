@@ -2,15 +2,6 @@ import pygame
 from .constants import BROWN, COLS, ROWS, WHITE, SQUARE_SIZE, RED, BLACK
 from .piece import Piece
 
-## board 
-# red = white
-# black = brown
-# blue = blue
-
-## goti haru
-# white = red
-# red = black
-
 class Board:
     def __init__(self):
         self.board = []
@@ -29,7 +20,7 @@ class Board:
                         SQUARE_SIZE)
                     )
 
-    def evaluate(self): # TODO: print final score to console as well ????
+    def evaluate(self): 
         return self.red_left - self.black_left + (self.red_kings * 0.5 - self.red_kings * 0.5)
 
     def get_allPieces(self, color):

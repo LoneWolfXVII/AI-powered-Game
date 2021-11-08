@@ -1,10 +1,6 @@
 import pygame
 from .constants import COLS, RED, BLACK, SQUARE_SIZE, GREY, CROWN
 
-## goti haru
-# white = red
-# red = black
-
 class Piece:
     PADDING = 13 
     BORDER_OUTLINE = 2 # pixel difference b/w the 2 circles

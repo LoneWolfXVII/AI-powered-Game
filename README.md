@@ -6,9 +6,8 @@ a game of checkers played versus AI (computer/bot)
 2. make sure you have python installed on your system
 3. install pygame
 4. extract assets.zip and keep in the root directory
-5. the green circle while on red's (AI) turn is the potential moves of both the players, feel free to change the delay in aiAlgorithm.py
-6. run main.py to launch the game
-7. start playing; your turn is first
+5. run main.py to launch the game
+6. start playing; your turn is first
 
 
 ## working

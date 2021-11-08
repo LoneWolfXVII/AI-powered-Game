@@ -12,4 +12,4 @@ built using pygame library
 
 
 ## working
-the AI uses the minimax algorithm
+the AI uses the minimax algorithm to play and learn to win

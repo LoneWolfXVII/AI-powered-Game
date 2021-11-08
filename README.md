@@ -1,5 +1,6 @@
 # AI-powered-Game
 a game of checkers played versus AI (computer/bot)
+built using pygame library
 
 ## to play the game
 1. download/fork the files
